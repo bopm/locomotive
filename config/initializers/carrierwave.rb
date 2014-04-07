@@ -26,3 +26,11 @@ CarrierWave.configure do |config|
   end
 
 end
+
+module Locomotive
+  class ThemeAssetUploader < ::CarrierWave::Uploader::Base
+    def extension_white_list
+      %w(jpg jpeg gif png css js swf flv eot svg ttf woff otf ico htc md LICENSE json txt map gzip)
+    end
+  end
+end
