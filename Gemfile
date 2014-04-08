@@ -23,6 +23,8 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 end
 
+gem 'puma'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
