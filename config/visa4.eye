@@ -6,7 +6,7 @@ end
 
 Eye.application "visa4" do
   env "RAILS_ENV" => RAILS_ENV
-  working_dir '/var/www/rails/noozoom2/'
+  working_dir '/var/www/visa4/'
 
   trigger :flapping, :times => 10, :within => 1.minute
 
