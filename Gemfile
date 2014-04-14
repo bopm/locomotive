@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.17'
 gem 'locomotivecms_mounter', github: 'bopm/mounter'
 gem 'locomotive_cms', '~> 2.5.0', :require => 'locomotive/engine', github: 'locomotivecms/engine'
+gem 'activesearch', github: 'Papipo/activesearch', ref: 'f00ea0f9ea41cab61639f7d90c3477229217b3bb'
+gem 'locomotivecms-search', require: 'locomotive/search/mongoid'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
