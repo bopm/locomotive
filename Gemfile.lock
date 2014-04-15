@@ -1,14 +1,4 @@
 GIT
-  remote: git://github.com/Papipo/activesearch.git
-  revision: f00ea0f9ea41cab61639f7d90c3477229217b3bb
-  ref: f00ea0f9ea41cab61639f7d90c3477229217b3bb
-  specs:
-    activesearch (0.2.0)
-      actionpack
-      activesupport
-      sucker_punch
-
-GIT
   remote: git://github.com/bopm/mounter.git
   revision: 1feebc77d80b9adaf1bf42af638cb1c2450f7345
   specs:
@@ -127,8 +117,6 @@ GEM
     cells (3.8.8)
       actionpack (>= 3.0)
       railties (>= 3.0)
-    celluloid (0.15.2)
-      timers (~> 1.1.0)
     chronic (0.10.2)
     chunky_png (1.3.0)
     codemirror-rails (3.23)
@@ -216,9 +204,6 @@ GEM
     locomotive-tinymce-rails (3.5.8.2)
       actionpack (~> 3.2)
     locomotive_liquid (2.4.2)
-    locomotivecms-search (0.2.8)
-      activesearch (~> 0.2.0)
-      locomotive_cms (>= 2.3)
     locomotivecms_solid (0.2.2)
       locomotive_liquid (~> 2.4.2)
     logger (1.2.8)
@@ -309,14 +294,11 @@ GEM
       tilt (~> 1.1)
     sqlite3 (1.3.9)
     stringex (2.0.11)
-    sucker_punch (1.0.3)
-      celluloid (~> 0.15.2)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
     tilt (1.4.1)
-    timers (1.1.0)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -332,14 +314,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesearch!
   coffee-rails (~> 3.2.1)
   compass (= 0.12.2)
   compass-rails
   compass-sourcemaps (~> 0.12.2.sourcemaps.57a186c)
   jquery-rails
   locomotive_cms (~> 2.5.0)!
-  locomotivecms-search
   locomotivecms_mounter!
   puma
   rails (= 3.2.17)
