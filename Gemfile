@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.17'
 gem 'locomotivecms_mounter', github: 'bopm/mounter'
-gem 'locomotive_cms', '~> 2.5.0', :require => 'locomotive/engine', github: 'locomotivecms/engine'
+gem 'locomotive_cms', '2.5.0.rc2', :require => 'locomotive/engine', github: 'locomotivecms/engine'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
